@@ -11,7 +11,7 @@ import com.zhixinhuixue.zsyte.xxx.ui.activity.ListActivity
 import com.zhixinhuixue.zsyte.xxx.ui.activity.LoginActivity
 import com.zhixinhuixue.zsyte.xxx.ui.activity.TestActivity
 import com.zhixinhuixue.zsyte.xxx.ui.viewmodel.TestViewModel
-import me.hgj.mvvmhelper.ext.*
+import me.hsc.mvvmhelper.ext.*
 
 /**
  * 作者　: hegaojian

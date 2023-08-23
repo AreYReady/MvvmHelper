@@ -7,7 +7,7 @@ import com.zhixinhuixue.zsyte.xxx.app.base.BaseActivity
 import com.zhixinhuixue.zsyte.xxx.app.ext.initBack
 import com.zhixinhuixue.zsyte.xxx.databinding.ActivityTestBinding
 import com.zhixinhuixue.zsyte.xxx.ui.fragment.ListFragment
-import me.hgj.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.base.BaseViewModel
 
 /**
  * 作者　: hegaojian

@@ -2,7 +2,7 @@ package com.zhixinhuixue.zsyte.xxx.ui.activity
 
 import android.os.Bundle
 import androidx.lifecycle.Observer
-import me.hgj.mvvmhelper.ext.dp
+import me.hsc.mvvmhelper.ext.dp
 import com.zhixinhuixue.zsyte.xxx.R
 import com.zhixinhuixue.zsyte.xxx.app.api.NetUrl
 import com.zhixinhuixue.zsyte.xxx.app.base.BaseActivity
@@ -10,9 +10,9 @@ import com.zhixinhuixue.zsyte.xxx.app.ext.initBack
 import com.zhixinhuixue.zsyte.xxx.databinding.LayoutListBinding
 import com.zhixinhuixue.zsyte.xxx.ui.adapter.TestAdapter
 import com.zhixinhuixue.zsyte.xxx.ui.viewmodel.ListViewModel
-import me.hgj.mvvmhelper.ext.*
-import me.hgj.mvvmhelper.net.LoadStatusEntity
-import me.hgj.mvvmhelper.util.decoration.DividerOrientation
+import me.hsc.mvvmhelper.ext.*
+import me.hsc.mvvmhelper.net.LoadStatusEntity
+import me.hsc.mvvmhelper.util.decoration.DividerOrientation
 
 /**
  * 作者　: hegaojian

@@ -1,8 +1,8 @@
 package com.zhixinhuixue.zsyte.xxx.app.base
 
 import androidx.viewbinding.ViewBinding
-import me.hgj.mvvmhelper.base.BaseVbFragment
-import me.hgj.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.base.BaseVbFragment
+import me.hsc.mvvmhelper.base.BaseViewModel
 
 /**
  * 作者　: hegaojian

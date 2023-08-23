@@ -4,10 +4,9 @@ import androidx.lifecycle.MutableLiveData
 import com.zhixinhuixue.zsyte.xxx.app.api.NetUrl
 import com.zhixinhuixue.zsyte.xxx.data.repository.UserRepository
 import com.zhixinhuixue.zsyte.xxx.data.response.ApiPagerResponse
-import kotlinx.coroutines.delay
-import me.hgj.mvvmhelper.base.BaseViewModel
-import me.hgj.mvvmhelper.ext.rxHttpRequest
-import me.hgj.mvvmhelper.net.LoadingType
+import me.hsc.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.ext.rxHttpRequest
+import me.hsc.mvvmhelper.net.LoadingType
 
 /**
  * 作者　: hegaojian

@@ -4,13 +4,10 @@ import android.net.Uri
 import android.os.Build
 import androidx.lifecycle.viewModelScope
 import com.zhixinhuixue.zsyte.xxx.app.api.NetUrl
-import com.zhixinhuixue.zsyte.xxx.app.util.Android10DownloadFactory
-import com.zhixinhuixue.zsyte.xxx.app.util.UriUtils
 import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import me.hgj.mvvmhelper.base.BaseViewModel
-import me.hgj.mvvmhelper.base.appContext
+import me.hsc.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.base.appContext
 import rxhttp.toFlow
 import rxhttp.wrapper.entity.Progress
 import rxhttp.wrapper.param.RxHttp

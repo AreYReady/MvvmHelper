@@ -1,7 +1,7 @@
 package com.zhixinhuixue.zsyte.xxx.app.api
 
-import me.hgj.mvvmhelper.base.appContext
-import me.hgj.mvvmhelper.net.interception.LogInterceptor
+import me.hsc.mvvmhelper.base.appContext
+import me.hsc.mvvmhelper.net.interception.LogInterceptor
 import okhttp3.OkHttpClient
 import rxhttp.wrapper.cookie.CookieStore
 import java.io.File

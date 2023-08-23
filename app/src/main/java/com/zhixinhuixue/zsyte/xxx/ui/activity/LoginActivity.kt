@@ -1,7 +1,6 @@
 package com.zhixinhuixue.zsyte.xxx.ui.activity
 
 import android.os.Bundle
-import android.widget.EditText
 import androidx.lifecycle.Observer
 import com.zhixinhuixue.zsyte.xxx.R
 import com.zhixinhuixue.zsyte.xxx.app.api.NetUrl
@@ -10,8 +9,8 @@ import com.zhixinhuixue.zsyte.xxx.app.ext.LiveDataEvent
 import com.zhixinhuixue.zsyte.xxx.app.ext.initBack
 import com.zhixinhuixue.zsyte.xxx.databinding.ActivityLoginBinding
 import com.zhixinhuixue.zsyte.xxx.ui.viewmodel.LoginViewModel
-import me.hgj.mvvmhelper.ext.*
-import me.hgj.mvvmhelper.net.LoadStatusEntity
+import me.hsc.mvvmhelper.ext.*
+import me.hsc.mvvmhelper.net.LoadStatusEntity
 
 /**
  * 作者　: hegaojian

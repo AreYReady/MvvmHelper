@@ -8,9 +8,8 @@ import android.view.View
 import android.widget.CheckBox
 import android.widget.CompoundButton
 import android.widget.EditText
-import android.widget.ImageView
 import androidx.databinding.BindingAdapter
-import me.hgj.mvvmhelper.ext.textString
+import me.hsc.mvvmhelper.ext.textString
 
 /**
  * 作者　: hegaojian

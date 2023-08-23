@@ -13,7 +13,7 @@
         android:layout_marginRight="@dimen/dp.18"
         android:orientation="vertical">
 
-        <me.hgj.mvvmhelper.widget.alpha.UIImageView
+        <me.hsc.mvvmhelper.widget.alpha.UIImageView
             android:layout_width="@dimen/dp.64"
             android:layout_height="@dimen/dp.64"
             android:layout_gravity="center_horizontal"

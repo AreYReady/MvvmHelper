@@ -14,11 +14,11 @@ import com.zhixinhuixue.zsyte.xxx.data.annotation.ValueKey
 import com.zhixinhuixue.zsyte.xxx.databinding.ActivitySplashBinding
 import com.zhixinhuixue.zsyte.xxx.ui.adapter.SplashBannerAdapter
 import com.zhpan.bannerview.BannerViewPager
-import me.hgj.mvvmhelper.base.BaseViewModel
-import me.hgj.mvvmhelper.ext.gone
-import me.hgj.mvvmhelper.ext.setOnclick
-import me.hgj.mvvmhelper.ext.visible
-import me.hgj.mvvmhelper.ext.visibleOrGone
+import me.hsc.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.ext.gone
+import me.hsc.mvvmhelper.ext.setOnclick
+import me.hsc.mvvmhelper.ext.visible
+import me.hsc.mvvmhelper.ext.visibleOrGone
 
 /**
  * 作者　: hegaojian

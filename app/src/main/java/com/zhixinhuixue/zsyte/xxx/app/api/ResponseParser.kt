@@ -2,7 +2,7 @@ package com.zhixinhuixue.zsyte.xxx.app.api
 
 import com.zhixinhuixue.zsyte.xxx.data.response.ApiPagerResponse
 import com.zhixinhuixue.zsyte.xxx.data.response.ApiResponse
-import me.hgj.mvvmhelper.net.BaseNetConstant
+import me.hsc.mvvmhelper.net.BaseNetConstant
 import rxhttp.wrapper.annotation.Parser
 import rxhttp.wrapper.exception.ParseException
 import rxhttp.wrapper.parse.TypeParser

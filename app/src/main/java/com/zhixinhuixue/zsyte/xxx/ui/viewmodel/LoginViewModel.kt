@@ -4,14 +4,12 @@ import androidx.lifecycle.MutableLiveData
 import com.zhixinhuixue.zsyte.xxx.app.api.NetUrl
 import com.zhixinhuixue.zsyte.xxx.data.repository.UserRepository
 import com.zhixinhuixue.zsyte.xxx.data.response.UserInfo
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import me.hgj.mvvmhelper.base.BaseViewModel
-import me.hgj.mvvmhelper.ext.logA
-import me.hgj.mvvmhelper.ext.logI
-import me.hgj.mvvmhelper.ext.rxHttpRequest
-import me.hgj.mvvmhelper.ext.rxHttpRequestCallBack
-import me.hgj.mvvmhelper.net.LoadingType
+import me.hsc.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.ext.logA
+import me.hsc.mvvmhelper.ext.logI
+import me.hsc.mvvmhelper.ext.rxHttpRequest
+import me.hsc.mvvmhelper.ext.rxHttpRequestCallBack
+import me.hsc.mvvmhelper.net.LoadingType
 import rxhttp.async
 
 /**

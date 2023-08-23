@@ -4,8 +4,8 @@ import android.app.Application
 import com.effective.android.anchors.AnchorsManager
 import com.effective.android.anchors.Project
 import com.zhixinhuixue.zsyte.xxx.BuildConfig
-import me.hgj.mvvmhelper.base.MvvmHelper
-import me.hgj.mvvmhelper.ext.currentProcessName
+import me.hsc.mvvmhelper.base.MvvmHelper
+import me.hsc.mvvmhelper.ext.currentProcessName
 
 /**
  * 作者　: hegaojian

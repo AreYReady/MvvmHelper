@@ -10,13 +10,12 @@ import com.tencent.mmkv.MMKV
 import com.zhixinhuixue.zsyte.xxx.R
 import com.zhixinhuixue.zsyte.xxx.app.api.NetHttpClient
 import com.zhixinhuixue.zsyte.xxx.app.widget.callback.LoadingCallback
-import me.hgj.mvvmhelper.base.appContext
-import me.hgj.mvvmhelper.ext.getColorExt
-import me.hgj.mvvmhelper.loadsir.callback.SuccessCallback
-import me.hgj.mvvmhelper.loadsir.core.LoadSir
-import me.hgj.mvvmhelper.widget.state.BaseEmptyCallback
-import me.hgj.mvvmhelper.widget.state.BaseErrorCallback
-import me.hgj.mvvmhelper.widget.state.BaseLoadingCallback
+import me.hsc.mvvmhelper.base.appContext
+import me.hsc.mvvmhelper.ext.getColorExt
+import me.hsc.mvvmhelper.loadsir.callback.SuccessCallback
+import me.hsc.mvvmhelper.loadsir.core.LoadSir
+import me.hsc.mvvmhelper.widget.state.BaseEmptyCallback
+import me.hsc.mvvmhelper.widget.state.BaseErrorCallback
 import rxhttp.RxHttpPlugins
 import java.util.*
 

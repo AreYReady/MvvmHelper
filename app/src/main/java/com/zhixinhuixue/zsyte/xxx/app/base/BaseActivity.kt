@@ -6,8 +6,8 @@ import androidx.viewbinding.ViewBinding
 import com.gyf.immersionbar.ImmersionBar
 import com.zhixinhuixue.zsyte.xxx.R
 import com.zhixinhuixue.zsyte.xxx.app.widget.CustomToolBar
-import me.hgj.mvvmhelper.base.BaseVBActivity
-import me.hgj.mvvmhelper.base.BaseViewModel
+import me.hsc.mvvmhelper.base.BaseVBActivity
+import me.hsc.mvvmhelper.base.BaseViewModel
 
 /**
  * 作者　: hegaojian

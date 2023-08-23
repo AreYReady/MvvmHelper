@@ -1,6 +1,6 @@
 package com.zhixinhuixue.zsyte.xxx.data.response
 
-import me.hgj.mvvmhelper.entity.BasePage
+import me.hsc.mvvmhelper.entity.BasePage
 
 /**
  * 作者　: hegaojian

@@ -8,9 +8,9 @@ import com.zhixinhuixue.zsyte.xxx.app.base.BaseFragment
 import com.zhixinhuixue.zsyte.xxx.databinding.LayoutListBinding
 import com.zhixinhuixue.zsyte.xxx.ui.adapter.TestAdapter
 import com.zhixinhuixue.zsyte.xxx.ui.viewmodel.ListViewModel
-import me.hgj.mvvmhelper.ext.*
-import me.hgj.mvvmhelper.net.LoadStatusEntity
-import me.hgj.mvvmhelper.util.decoration.DividerOrientation
+import me.hsc.mvvmhelper.ext.*
+import me.hsc.mvvmhelper.net.LoadStatusEntity
+import me.hsc.mvvmhelper.util.decoration.DividerOrientation
 
 /**
  * 作者　: hegaojian
