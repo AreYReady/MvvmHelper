@@ -9,7 +9,6 @@ import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.Bundle
 import android.text.TextUtils
-import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.annotation.NonNull
@@ -17,7 +16,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.hjq.toast.ToastUtils
+import com.hjq.toast.Toaster
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 import me.hsc.mvvmhelper.base.appContext
@@ -55,7 +54,7 @@ fun Any?.toJsonStr(): String {
 }
 
 fun Any?.toast() {
-    ToastUtils.show(this)
+    Toaster.show(this)
 }
 
 /**
@@ -130,23 +129,23 @@ fun toStartActivity(@NonNull type: Any, @NonNull clz: Class<*>, code: Int, @NonN
     }
 }
 
-/**
- * 隐藏状态栏
- */
-fun hideStatusBar(activity: Activity) {
-    val attrs = activity.window.attributes
-    attrs.flags = attrs.flags or WindowManager.LayoutParams.FLAG_FULLSCREEN
-    activity.window.attributes = attrs
-}
-
-/**
- * 显示状态栏
- */
-fun showStatusBar(activity: Activity) {
-    val attrs = activity.window.attributes
-    attrs.flags = attrs.flags and WindowManager.LayoutParams.FLAG_FULLSCREEN.inv()
-    activity.window.attributes = attrs
-}
+///**
+// * 隐藏状态栏
+// */
+//fun hideStatusBar(activity: Activity) {
+//    val attrs = activity.window.attributes
+//    attrs.flags = attrs.flags or WindowManager.LayoutParams.FLAG_FULLSCREEN
+//    activity.window.attributes = attrs
+//}
+//
+///**
+// * 显示状态栏
+// */
+//fun showStatusBar(activity: Activity) {
+//    val attrs = activity.window.attributes
+//    attrs.flags = attrs.flags and WindowManager.LayoutParams.FLAG_FULLSCREEN.inv()
+//    activity.window.attributes = attrs
+//}
 
 /**
  * 横竖屏

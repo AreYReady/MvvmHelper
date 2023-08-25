@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
     id 'maven-publish'
+    id 'kotlin-kapt'
+
 }
 task generateSourcesJar(type: Jar){
     from android.sourceSets.main.java.srcDirs
@@ -10,13 +12,11 @@ task generateSourcesJar(type: Jar){
 }
 
 android {
-    compileSdkVersion 33
+    compileSdk 33
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 33
-        versionCode 20
-        versionName "1.1.9"
+        targetSdk 33
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -34,15 +34,16 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = '17'
     }
     publishing {
         singleVariant("release")
     }
+    namespace 'me.hsc.mvvmhelper'
 }
 
 afterEvaluate {
@@ -50,7 +51,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.hegaojian'
+                groupId = 'com.github.hsc'
                 artifactId = 'MvvmHelper'
                 version = '1.1.9'
             }
@@ -79,7 +80,7 @@ dependencies {
     // liveData
     api "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
     //Toast
-    api 'com.github.getActivity:ToastUtils:9.6'
+    api 'com.github.getActivity:Toaster:12.3'
     //log
     api "com.github.zhaokaiqiang.klog:library:1.6.0"
     //万能adapter
